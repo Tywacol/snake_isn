@@ -1,7 +1,7 @@
-47, NaN
-45, Très bon
+47, Big boss
+45, Tres bon
 44, Tywa
-40, Stylé
+40, StylÃ©
 36, TyCol
 35, Cool
 33, 
@@ -26,6 +26,6 @@
 0, 
 0, 
 0, lkejfls
-0, rémi
+0, remi
 0, 
 0, NOOB
