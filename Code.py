@@ -5,14 +5,14 @@ from time import*
 fen = Tk()
 fen.title(" Snake updated 2.0")
 fen.geometry('550x215')
-fichier_fond = PhotoImage(file = "fond_vert.gif") # était fond_vert.gif (2015)
-fichier_snake = PhotoImage(file = "Snake_skin.gif")
-fichier_pomme = PhotoImage(file = "pomme.gif")
-fichier_jeu = PhotoImage(file="image_jouer.gif")
-fichier_jeu_difficile = PhotoImage(file="image_jouer_difficile.gif")
-fichier_score = PhotoImage(file="image_scores.gif")
-fichier_quitter = PhotoImage(file="image_quitter.gif")
-fichier_pomme_or = PhotoImage(file="pomme d'or.gif")
+fichier_fond = PhotoImage(file = "img/fond_vert.gif") # était fond_vert.gif (2015)
+fichier_snake = PhotoImage(file = "img/Snake_skin.gif")
+fichier_pomme = PhotoImage(file = "img/pomme.gif")
+fichier_jeu = PhotoImage(file="img/image_jouer.gif")
+fichier_jeu_difficile = PhotoImage(file="img/image_jouer_difficile.gif")
+fichier_score = PhotoImage(file="img/image_scores.gif")
+fichier_quitter = PhotoImage(file="img/image_quitter.gif")
+fichier_pomme_or = PhotoImage(file="img/pomme d'or.gif")
 
 # On déclare les variables globales
 C = Canvas(fen, width=768, height=608) # Ce Canvas utilisé pour le jeu
