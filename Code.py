@@ -49,7 +49,7 @@ def main():
     global pseudo
 
 # Ici on remet à leur état initial toutes les variables utilisées pendant le jeu pour repartir à zéro
-    fen.geometry('850x215')
+    fen.geometry('772x215')
     d = 0
     compteurs = []
     mod = 0
@@ -105,25 +105,25 @@ def main():
     def fd_jeu(evt):
         global test_fond
         if test_fond  == False :
-            A.place(x=640, y=4)
+            A.place(x=565, y=4)
             fond_score = A.create_image(2, 2, image= fichier_jeu, anchor = 'nw')
             test_fond = True
     def fd_jeu_difficile(evt):
         global test_fond
         if test_fond  == False :
-            A.place(x=640, y=4)
+            A.place(x=565, y=4)
             fond_score = A.create_image(2, 2, image= fichier_jeu_difficile, anchor = 'nw')
             test_fond = True
     def fd_score(evt):
         global test_fond
         if test_fond  == False :
-            A.place(x=640, y=4)
+            A.place(x=565, y=4)
             fond_score = A.create_image(2, 2, image= fichier_score, anchor = 'nw')
             test_fond = True
     def fd_quitter(evt):
         global test_fond
         if test_fond  == False :
-            A.place(x=640, y=4)
+            A.place(x=565, y=4)
             fond_score = A.create_image(2, 2, image= fichier_quitter, anchor = 'nw')
             test_fond = True
    
@@ -149,6 +149,7 @@ def main():
         bou3.destroy()
         txt.destroy()
         bou6.destroy()
+
 
     def nb(a, i):
         e = 0   # Quand on récupère les scores lignes par lignes dans le fichier texte,
@@ -199,15 +200,17 @@ def main():
             txt3.destroy()
             E.destroy()
             return main()
+        fen.geometry('400x650')
         bou4 = Button(fen, text='Valider', anchor='center', command=ajouter)
-        bou4.place(x=380, y=300)
+
+        bou4.place(x=160, y=300)
         pseudo = StringVar()
         txt2 = Label(fen, text='Votre pseudo :')
-        txt2.place(x=370, y=240)
+        txt2.place(x=150, y=240)
         txt3 = Label(fen, text='SCORE : '+str(score))
-        txt3.place(x=380, y=150)
+        txt3.place(x=160, y=150)
         E = Entry(fen , textvariable = pseudo, width=30)
-        E.place(x=310, y=270)
+        E.place(x=70, y=270)
 
 
     def kill():

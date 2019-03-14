@@ -9,9 +9,13 @@
 35, Pas mal
 25, Mycro
 25, Pigamey!
+20, 
 20, Moyen
 17, Emilien
 15, Mauvais
+14, 
+12, SnakeClassic
+10, 
 10, Nul
 9, 
 9, Hell
@@ -19,26 +23,23 @@
 8, SnakeClassic
 8, 
 7, 
+7, 
 6, SnakeHard
 6, 
 6, Hello
+5, 
+5, 
 5, SnakeClassic
 5, 
 5, Ridicule
+4, 
 4, SnakeClassic
+3, 
+3, 
 2, SnakeHard
 1, 
-0, Bad
-0, 
-0, ljl
-0, jhkjhk
-0, 
+1, 
+1, 
+0, SnakeHard :(
 0, 
 0, 
-0, corto
-0, 
-0, 
-0, lkejfls
-0, remi
-0, 
-0, NOOB
