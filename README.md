@@ -6,10 +6,9 @@ First programming school project ! Snake game in python for the Baccalaureat
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
+You can clone the project with
 ```bash
-git clone 
+git clone git@github.com:Tywacol/snake_isn.git
 ```
 
 ## Prequisite
