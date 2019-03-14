@@ -622,17 +622,21 @@ def main():
     bou3.bind('<Enter>', fd_quitter)
     bou3.bind('<Leave>', fd_leave)
     # Annonce au joueur
-    txt = Label(fen ,text=      """SNAKE
-
+    txt = Label(fen ,text=      """
+                
 Programmeurs :
 Alexandre Bonavita et Corto Callerisa
 
-Dans ce jeu, vous êtes un serpent et le but du jeu est de manger un maximum de pommes
-pour grandir. La partie est terminée quand vous vous mangez la queue.
-Déplacez vous avec les flèches directionnelles du clavier et mettez le jeu en pause avec Espace.
+Dans ce jeu, vous êtes un serpent et le but du jeu est de manger 
+un maximum de pommes pour grandir. 
+
+La partie est terminée quand vous vous mangez la queue.
+Déplacez vous avec les flèches directionnelles du clavier
+et mettez le jeu en pause avec Espace.
+
 Amusez vous bien ! !"""
                 )
-    txt.place(x=120, y=40)
+    txt.place(x=120, y=2)
 
 
 # Début

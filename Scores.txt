@@ -13,13 +13,26 @@
 17, Emilien
 15, Mauvais
 10, Nul
+9, 
 9, Hell
 8, 
+8, SnakeClassic
+8, 
 7, 
+6, SnakeHard
 6, 
 6, Hello
+5, SnakeClassic
 5, 
 5, Ridicule
+4, SnakeClassic
+2, SnakeHard
+1, 
+0, Bad
+0, 
+0, ljl
+0, jhkjhk
+0, 
 0, 
 0, 
 0, corto
