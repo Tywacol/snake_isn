@@ -172,11 +172,11 @@ def main():
     def fin():
         global pseudo
         def ajouter():
-            fichier_score = open("Scores.txt", "r")
+            fichier_score = open("scores/Scores.txt", "r")
             lst = fichier_score.readlines()
             fichier_score.close()
             if len(lst) > 0 :
-                fichier_score = open("Scores.txt", "r")
+                fichier_score = open("scores/Scores.txt", "r")
                 i = 0
                 test2 = True
                 while (i < len(lst)) and (test2 == True):
@@ -188,11 +188,11 @@ def main():
                     lst.append(str(score)+', '+pseudo.get()+'\n')
                 "".join(lst)
                 fichier_score.close()
-                fichier_score = open("Scores.txt", "w")
+                fichier_score = open("scores/Scores.txt", "w")
                 fichier_score.writelines(lst)
                 fichier_score.close()
             else :
-                fichier_score = open("Scores.txt", "w")
+                fichier_score = open("scores/Scores.txt", "w")
                 fichier_score.writelines(str(score)+', '+pseudo.get()+'\n')
                 fichier_score.close()
             bou4.destroy()
@@ -581,7 +581,7 @@ def main():
     def tableau_scores():
         destruction()
         fen.geometry('400x650')
-        fichier_score = open("Scores.txt", "r")
+        fichier_score = open("scores/Scores.txt", "r")
         a = fichier_score.readlines()
         D = Canvas(fen, width=396, height=646, bg='white')
         D.place(x=0, y=0)
